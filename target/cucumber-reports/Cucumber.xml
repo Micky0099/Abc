@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="53.218">
+    <testcase classname="Verify the Shopping page" name="Verify that landing page is displaying proper" time="28.471">
+        <system-out><![CDATA[Given I navigate to Demo shopping Application...............................passed
+Then user should be on Landing page.........................................passed
+And i verify shopping cart is Empty.........................................passed
+And i verify Sign is CTA is displaying......................................passed
+And i verify Contact us CTA is displaying...................................passed
+Then I navigate to Cart.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify the Shopping page" name="Verify that user should be able to add product to cart" time="24.359">
+        <system-out><![CDATA[Given I navigate to Demo shopping Application...............................passed
+Then user should be on Landing page.........................................passed
+And i Click on Tshirt CTA...................................................passed
+Then product should be available on page....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
